@@ -23,7 +23,7 @@ body {
     border-radius: 50px;
 }
 
-li a {
+.topnav ul li a {
     display: block;
     color: white;
     text-align: center;
@@ -31,11 +31,11 @@ li a {
     text-decoration: none;
 }
 
-li a:hover:not(.first) {
+.topnav ul li a:hover:not(.first) {
     background-color: #111;
 }
 
-li a:hover.first {
+.topnav ul li a:hover.first {
     background-color: #AA3333;
 }
 
