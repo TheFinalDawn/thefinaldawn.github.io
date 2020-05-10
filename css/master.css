@@ -16,13 +16,6 @@ body {
     background-attachment: fixed;
 }
 
-.header {
-    background-color: #fecbcb;
-    /* fecbcb */
-    border: 2px solid black;
-    border-radius: 50px;
-}
-
 .topnav ul li a {
     display: block;
     color: white;
@@ -109,21 +102,13 @@ body {
     margin: 0px !important;
 }
 
-
-/* The Close Button */
-
-.close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+.what {
+    text-align: center;
+    font-size: 0.75rem;
 }
 
-.close:hover,
-.close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
+.exittop {
+    animation: exittop 0.4s;
 }
 
 @keyframes floattop {
@@ -134,5 +119,16 @@ body {
     to {
         top: 0;
         opacity: 1
+    }
+}
+
+@keyframes exittop {
+    from {
+        top: 0;
+        opacity: 1
+    }
+    to {
+        top: -300px;
+        opacity: 0
     }
 }
