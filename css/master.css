@@ -69,7 +69,7 @@ li a:hover.first {
     text-decoration: none;
 }
 
-.modal {
+#modal-mothers-day {
     display: none;
     /* Hidden by default */
     position: fixed;
@@ -94,7 +94,7 @@ li a:hover.first {
 
 /* Modal Content/Box */
 
-.modal-content {
+#modal-mothers-day .modal-content {
     background-color: #fefefe;
     margin: 15% auto;
     /* 15% from the top and centered */
