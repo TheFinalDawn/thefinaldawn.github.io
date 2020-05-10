@@ -111,6 +111,10 @@ body {
     animation: exittop 0.4s;
 }
 
+.search-muted {
+    display: none;
+}
+
 @keyframes floattop {
     from {
         top: -300px;
